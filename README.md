@@ -32,7 +32,6 @@ AIForge aims to make working with AI models easier by providing small, focused t
 
 ## Tech Stack
 
-- JavaScript
 - TypeScript
 - Node.js
 - CLI tools
