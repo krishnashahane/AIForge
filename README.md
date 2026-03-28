@@ -1,4 +1,4 @@
-# AIForge
+# 🤖 AIForge
 Simple library for LLM token accounting
 
 > “First principles: break problems down to fundamental truths and build up from there.”
