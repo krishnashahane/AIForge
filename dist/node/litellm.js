@@ -7,9 +7,9 @@ function cachePaths(env) {
     const override = env.AIFORGE_CACHE_DIR?.trim();
     const home = env.HOME?.trim();
     const cacheDir = override && override.length > 0
-        ? override
+        ? path.resolve(override)
         : home
-            ? path.join(home, ".aiforge", "cache")
+            ? path.resolve(home, ".aiforge", "cache")
             : null;
     if (!cacheDir)
         return null;
